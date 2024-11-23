@@ -5,14 +5,18 @@ sidebar_position: 0
 
 ## Definition
 
-Used when: one event is described as preceding the other.
-The label Temporal.Asynchronous.Precedence is used when the event described by Arg1 precedes
-that described by Arg2 `(i.e., Arg1 << Arg2).`
+Used when: the events or situations in the two arguments are temporally ordered. If the precise order is known, 
+instead use the sub-types [Before](./before.mdx) or [After](./after.mdx).
 
 ## Examples
 
-## Distinctions
+```
+Example 1:
+(1) A: I won't be available from 3-4pm, I have a meeting at that time 
+(2) B: Ok, I'll reach at a different time then
+(2) --Asynchronous--> (1)
+```
 
-import DistinctionBlock from '@site/docs/Distinctions/DistinctionBlock.md';
+## References
 
-<DistinctionBlock />
+See "Temporal.Asynchronous" in the [Penn Discourse Tree Bank Annotation Manual](https://repository.upenn.edu/handle/20.500.14332/37623). 
