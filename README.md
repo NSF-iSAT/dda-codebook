@@ -1,4 +1,11 @@
-# Website
+
+
+# DRAFT: DDA Codebook Website
+
+A prototype of a Website containing the DDA codebook with two goals in mind:
+
+1. Making the DDA codebook semantic-versionable and parseable, for building prompts for DDA Parsing.
+2. Making some of the conventions and decisions we note down from discussions an available resource for DDA Annotators after a corpus release.
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
