@@ -1,0 +1,42 @@
+---
+title: Signal Non Understanding
+sidebar_position: 1
+---
+
+## Definition
+
+**Used when:** the source argument explicitly indicates a problem in understanding the target argument.
+As an applicability test for **Signal-non-understanding**, you should be able to roughly paraphrase a Signal-non-understanding utterance as "What did you say/mean?".
+Note that not all clarification questions signal non-understanding.
+**Typically requests to repeat or clarify previous utterances.**
+
+## Examples
+
+```
+Context: utt1: A: Take the train to Dansville
+  SNU            B: Huh?.                  (i.e., What did you say?)
+  SNU            B: What did you say?.     (i.e., What did you say?)
+  SNU            B: to Dansville?          (i.e., What did you say?)
+  SNU            B: did you say Dansville? (i.e., What did you say?)
+  SNU            B: Dansville, New York?   (i.e., What did you mean?)
+  SNU            B: Which train?           (i.e., What did you mean?)
+```
+Examples from SWBD-DAMSL.
+
+```
+(4) Engineer: Gold Gate and Cities of Abandon.
+(5) Pilot: Which one?
+---
+(5) -- SignalNonUnderstanding --> (4)
+```
+In (5), the Pilot is indicating they did not hear or understand the locations mentioned by the Engineer in (4), by asking for the same information again.
+
+### NON-Examples
+
+```
+(1) A: We should go to the store.
+(2) B: Which store?
+---
+(**NOT** a SignalNonUnderstanding)
+```
+In (2), B is not indicating a problem in understanding A's utterance in (1), but is instead asking for more details not provided in (1).
