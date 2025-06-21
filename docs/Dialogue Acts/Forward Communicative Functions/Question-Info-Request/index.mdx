@@ -1,0 +1,48 @@
+---
+title: Question Info Request
+sidebar_position: 1
+---
+
+## Definition
+
+**Used when:** the source argument is a question which has intention is to retrieve new information from other parties.
+Note that some syntactic question format utterance may not be a question/info-request
+i.e. A: Can you pass the salt?
+this is actually an Action Directive given the intention is not genuinely asking for more information, but rather requesting an action to be taken by the addressee.
+
+DDA does not distinguish between sub-types of information requesting questions, such as yes/no questions, wh-questions, etc.
+
+The target argument of a QuestionInfoRequest can be self-pointing (same as source) if the speaker is asking a question starting a new thread.
+Otherwise, the target argument is the previous turn which 'prompts' the question.
+
+## Examples
+
+```
+(1) A: Do you have to have any special training?
+---
+(1) -- QuestionInfoRequest --> (1)
+```
+
+```
+(159) A: we're adding your name into it.
+(160) B: Why?
+---
+(160) -- QuestionInfoRequest --> (159)
+```
+
+```
+(151) Pilot: And the I'll wait, which one should I shore up?
+(152) Messenger: Um.
+(153) Pilot: This one?
+(154) Pilot: Which one's important?
+---
+(154) -- QuestionInfoRequest --> (151)
+```
+
+```
+(277) Messenger: And see
+(278) Pilot: What is your power?
+---
+(278) -- QuestionInfoRequest --> (277)
+```
+
