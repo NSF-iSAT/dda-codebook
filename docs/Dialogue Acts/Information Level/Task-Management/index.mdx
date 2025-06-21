@@ -1,0 +1,62 @@
+---
+title: Task Management
+sidebar_position: 1
+---
+
+## Definition
+
+**Used when:** the source argument "explicitly addresses the problem solving process and experimental procedure."
+
+More from DAMSL:
+> This includes utterances that involve coordinating the activities of the two speakers (e.g., "Are you keeping track of the time?", "Let's work on getting the train to Avon first", "Forget about that problem for a while"), asking for help on the procedures (e.g., "Do I need to state the problem?") or asking about the status of the process (e.g., "Are we done?").
+
+Task-management also includes communication about the *status* of a task, such as "I am done with my part."
+
+### Conventions
+import Markdown from '@site/docs/Distinctions/TaskMVsActionDirectiveVsPropose.md';
+
+<Markdown />
+
+## Examples
+
+```
+<in a collaborative board game: Forbidden Island>
+
+(39) Pilot: Do you want to try to get the crystals first?
+---
+(39) -- TaskManagement --> (39)
+```
+The Pilot is asking the team about a longer term goal (getting the crystals), which is itself a part of the overall goal (winning the game by retrieving all the goal items), that won't be achieved by their immediate next actions.
+
+```
+(47) Pilot: Do you think Whispering Garden is like
+(48) Pilot: Where is that?
+(49) Messenger: Cause we drew the card already but I don't know.
+(50) Engineer: Wow.
+(51) Pilot: Oh ok, hmm.
+(52) Messenger: If
+(53) **Pilot: Should we try to flip that over?**
+(54) Pilot: Cause that's like the Golden Lion thing, we don't really
+(55) Messenger: Right
+```
+(53) is both a Proposal for a next course of action (flipping over a particular tile), and task-management, as the next acton is part of managing the broader task of winning the game. This utterance could be re-phrased as "Should the next step in our task be to flip that over?".
+
+```
+(462) Engineer: You need one more.
+(463) Pilot: Ok so.
+(464) Messenger: Right
+(465) Engineer: So I have three and she has one
+---
+(465) -- TaskManagement --> (462)
+```
+The Engineer is communicating the status of the task to the Pilot and Messenger.
+
+
+```
+(160) Pilot: I'll move one.
+(161) Pilot: Shore up and then I have one more move left.
+---
+(161) -- TaskManagement --> (160)
+```
+The pilot is [Committing](../../Forward%20Communicative%20Functions/Commit) to a course of action,
+but is also communicating the status of their turn/task in the game (each player gets three moves per turn).
