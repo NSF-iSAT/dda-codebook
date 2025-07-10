@@ -1,3 +1,6 @@
+---
+sidebar_class_name: hidden
+---
 :::note
 It is often appropriate to label a slash-unit as both a **Proposal** and **Task-Management** or as an **Action-Directive** and **Task-Management**, when the proposal or imperative is part of a future goal or task, not immediately achieved by the next actions.
 

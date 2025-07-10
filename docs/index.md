@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Overview
 slug: /
 sidebar_position: 0
 ---
