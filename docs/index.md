@@ -245,7 +245,7 @@ sidebar_position: 0
     <td><a href="Discourse%20Relations/Expansion/Exception/excluding">Excluding</a></td>
   </tr>
   <tr>
-    <td><a href="Discourse%20Relations/Expansion/Exception/excludedby">Excluded</a></td>
+    <td><a href="Discourse%20Relations/Expansion/Exception/excluded">Excluded</a></td>
   </tr>
   <tr>
     <td><a href="Discourse%20Relations/Expansion/Conjunction/">Conjunction</a></td>
