@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdda_codebook=self.webpackChunkdda_codebook||[]).push([[1056],{9096:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/dda-codebook/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

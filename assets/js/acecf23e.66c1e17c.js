@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdda_codebook=self.webpackChunkdda_codebook||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/dda-codebook/blog","blogTitle":"Blog","authorsListPath":"/dda-codebook/blog/authors"}')}}]);
