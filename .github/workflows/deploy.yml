@@ -33,5 +33,7 @@ jobs:
       - name: Deploy to GitHub Pages
         env:
           USE_SSH: true
-          GIT_USER: kingb12
+          GIT_USER_NAME: "github-actions"
+          GIT_USER_EMAIL: "github-actions@github.com"
+
         run: yarn deploy
