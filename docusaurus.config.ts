@@ -2,6 +2,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+const isProd = process.env.NODE_ENV === 'production';
+
 const config: Config = {
   title: 'DDA Codebook',
   tagline: 'A codebook for Dependency Dialogue Acts (DDA)',
@@ -61,6 +63,19 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
+  ],
+
+  plugins: [
+    ...(
+      isProd
+        ? [
+            [require.resolve('docusaurus-lunr-search'), {
+              languages: ['en'],
+              // Optional: customize fields to index, etc.
+            }],
+          ]
+        : []
+    ),
   ],
 
   themeConfig: {
