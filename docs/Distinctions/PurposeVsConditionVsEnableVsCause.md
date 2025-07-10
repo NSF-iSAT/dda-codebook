@@ -1,3 +1,6 @@
+---
+sidebar_class_name: hidden
+---
 :::note
 
 ### Purpose, Condition, Cause

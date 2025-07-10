@@ -1,3 +1,6 @@
+---
+sidebar_class_name: hidden
+---
 :::note
 **Offer**, **Commit**, and **Propose** all carry the potential to commit someone to a course of action.
 
